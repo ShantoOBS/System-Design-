@@ -419,3 +419,47 @@ a big "Machine" interface that forces classes to also implement "scan()" or "fax
 <p><b>Example:</b> A <i>Chef</i> (high-level) depends on an <i>Oven interface</i>,  
 not on a specific brand like Samsung or LG.  
 This way, any oven can be swapped without changing the chef’s code.</p>
+
+<hr/>
+<h1>Software Development Principles</h1>
+
+<h2>DRY Principle</h2>
+<p>
+  <b>DRY</b> stands for <i>Don't Repeat Yourself</i>. Avoid duplicating code or logic. 
+  Instead, reuse functions, modules, or classes to make the code easier to maintain.
+</p>
+
+<h2>KISS Principle</h2>
+<p>
+  <b>KISS</b> stands for <i>Keep It Simple, Stupid</i>. Design software in the simplest way possible, 
+  avoiding unnecessary complexity. Simple code is easier to read, test, and maintain.
+</p>
+
+<h2>YAGNI Principle</h2>
+<p>
+  <b>YAGNI</b> stands for <i>You Aren't Gonna Need It</i>. Only implement features that are currently required. 
+  Avoid adding functionality for future use unless necessary.
+</p>
+
+<h2>Comments in Code</h2>
+<p>
+  Use comments to explain <b>why</b> the code does something, not <b>what</b> it does. 
+  Good comments improve readability and maintainability.
+</p>
+
+<h2>GRASP Principles in OOAD</h2>
+<p>
+  <b>GRASP</b> (General Responsibility Assignment Software Patterns) are guidelines for assigning responsibilities in Object-Oriented Analysis and Design:
+</p>
+<ul>
+  <li><b>Controller</b> – Handles system events and delegates work.</li>
+  <li><b>Creator</b> – Responsible for creating instances of related classes.</li>
+  <li><b>Information Expert</b> – Assign responsibilities to the class with the necessary information.</li>
+  <li><b>Low Coupling</b> – Reduce dependencies between classes.</li>
+  <li><b>High Cohesion</b> – Keep related responsibilities together.</li>
+  <li><b>Polymorphism</b> – Use polymorphic behavior to handle variations.</li>
+  <li><b>Pure Fabrication</b> – Create classes that do not represent domain concepts to achieve better design.</li>
+  <li><b>Indirection</b> – Use intermediary objects to reduce direct coupling.</li>
+  <li><b>Protected Variations</b> – Protect elements from changes in other elements by encapsulating variations.</li>
+</ul>
+
